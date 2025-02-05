@@ -49,18 +49,18 @@ const InfiniteScroll = () => {
     <div>
       <h1>Infinite Scroll with React Query</h1>
       {data?.pages?.map((page, idx) => (
-        <ul key={idx}>
+        <ul key={idx} style={{width:"70%", margin:"auto"}}>
           {page.map((user) => (
             <li
               key={user.id}
               style={{ padding: "10px", border: "1px solid #ccc" }}
             >
-              <p>{user.login}</p>
+              <p style={{fontSize:"30px"}}>{user.login}</p>
               <img
                 src={user.avatar_url}
                 alt={user.login}
-                width={50}
-                height={50}
+                width={100}
+                height={100}
               />
             </li>
           ))}

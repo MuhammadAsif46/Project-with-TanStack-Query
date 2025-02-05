@@ -1,5 +1,5 @@
 body {
-  background-color: #17202a;
+  background-color: #34393d;
 }
 
 *{
@@ -106,7 +106,7 @@ footer {
   margin-top: 6.4rem;
 
   & li {
-    background-color: #212f3c;
+    background-color: #23282d;
     padding: 1.6rem;
     border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;
